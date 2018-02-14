@@ -30,9 +30,41 @@ public class PTra05_04 {
 		switch(line) {
 			case "0":
 				System.out.println("日曜");
+				System.out.println("プログラムを終了します");
 				break;
+				
 			case "1":
 				System.out.println("月曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			case "2":
+				System.out.println("火曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			case "3":
+				System.out.println("水曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			case "4":
+				System.out.println("木曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			case "5":
+				System.out.println("金曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			case "6":
+				System.out.println("土曜");
+				System.out.println("プログラムを終了します");
+				break;
+				
+			default:
+				System.out.println("0～6の整数を入力してください");
 		}
 	}
 }

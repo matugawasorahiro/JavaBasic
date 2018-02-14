@@ -14,7 +14,5 @@ public class PTra01_04 {
 		f = 3.14f;
 
 		System.out.println(f);
-
-
 	}
 }

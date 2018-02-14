@@ -51,4 +51,9 @@ public class Util {
 		return (String[]) list.toArray();
 	}
 
+	public static void shuffleArray(Object array) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
 }
