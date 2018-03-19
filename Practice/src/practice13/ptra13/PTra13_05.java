@@ -6,7 +6,11 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Item;
+
 public class PTra13_05 {
+	public static void main(String[] args) {
+
 
 	/*
 	 * ★ common.Itemクラスを作成してください
@@ -21,4 +25,9 @@ public class PTra13_05 {
 	 * 		上記2つを設定するための引数を持つ
 	 */
 
+	Item item = new Item("item",12);
+
+	System.out.println(item.getName());
+	System.out.println(item.getAdditionalDamage());
+	}
 }
