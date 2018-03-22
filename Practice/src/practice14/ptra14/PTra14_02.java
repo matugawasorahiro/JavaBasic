@@ -7,6 +7,17 @@
 package practice14.ptra14;
 
 public class PTra14_02 {
+	public static void main(String[] args) {
+		
+		DBCourse dbcourse = new DBCourse();
+		
+		System.out.println(dbcourse.getCourseName());
+		for(String unit : dbcourse.getCourseUnit()) {
+			System.out.println(unit);
+		}
+		
+		
+	}
 
 	/*
 	 * ★ common.Courseを実装した、DBCourseクラスを作成してください

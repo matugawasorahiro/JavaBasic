@@ -7,7 +7,16 @@
 package practice14.ptra14;
 
 public class PTra14_01 {
-
+	public static void main(String[] args) {
+		
+		JavaCouse javacouse = new JavaCouse();
+		System.out.println(javacouse.getCourseName());
+		
+		for(String Unit : javacouse.getCourseUnit()) {
+			System.out.println(Unit);
+		}
+		
+	}
 	/*
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
 	 *
